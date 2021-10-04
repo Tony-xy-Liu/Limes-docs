@@ -1,19 +1,21 @@
-Welcome to the LIMES documentation!
-===================================
+Limes User Documentation
+==================================
 
-**Limes** ( **L**\ ab **I**\ nventory **M**\ anagement **E**\ co **S**\ ystem) is a networked system of data providers 
-with both a `pip installable client <https://pypi.org/project/limes-inventory/>`_
-and `website <http://sh-lims.microbiology.ubc.ca:8001/>`_.
-Linkd data providers include `eLab <https://elab.msl.ubc.ca/>`_ and Shamwow. 
-Limes purpose is to provide a single point of access for all LIMS-related information at Hallam Lab.
-
-.. note::
-   An eLab account is required
+**Limes** (**L**\ ab **I**\ nventory **M**\ anagement **E**\ co\ **S**\ ystem)
+is a networked system of data providers 
+with both a :ref:`pip installable client<access-python>`
+and :ref:`web portal<access-portal>`.
+Linked data providers include :ref:`eLab<access-elab>` and Shamwow.
+Limes' purpose is to provide a single point of access
+for all LIMS-related information at Hallam Lab.
 
 Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
 
-   usage
-   api
+   access
+   overview
+   examples
+   contributing
