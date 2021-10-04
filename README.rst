@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
-=======================================
+This repo generates the documentation site for Limes
+====================================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://txyl-limes.readthedocs.io/en/latest/

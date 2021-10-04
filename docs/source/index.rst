@@ -1,17 +1,14 @@
-Welcome to Lumache's documentation!
+Welcome to the LIMES documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**Limes** (**L**ab **I**nventory **M**anagement **E**co**S**ystem) is a networked system of data providers 
+with both a `pip installable client <https://pypi.org/project/limes-inventory/>`
+and `website <http://sh-lims.microbiology.ubc.ca:8001/>`.
+Linkd data providers include `eLab <https://elab.msl.ubc.ca/>` and Shamwow. 
+Limes purpose is to provide a single point of access for all LIMS-related information at Hallam Lab.
 
 .. note::
-
-   This project is under active development.
+   An eLab account is required
 
 Contents
 --------
