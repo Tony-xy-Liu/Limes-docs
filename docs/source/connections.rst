@@ -8,7 +8,7 @@ On the Network
 ELab
 ----
 
-A wrapper inheriting ``Connection`` was created to provide typing for
+A wrapper inheriting ``Connections`` was created to provide typing for
 `eLab's API <https://www.elabjournal.com/docs/api/index>`_ and integrate it as a
 ``Provider``.
 
@@ -18,12 +18,12 @@ Server
 ------
 
 The server runs on a VM where access is only possible via SSH. It impliments the
-``Provider`` interface (specified by the ``Connection`` module) with additional
+``Provider`` interface (specified by the ``Connections`` module) with additional
 endpoints for the :ref:`portal<port-title>` and printers. This is meant to be the
 persistent source of truth for the network, though communications with other network
 elements need not always go through the server.
 
-The server supports both ``REST`` and ``SocketIO`` protocols.
+The server utilizes both ``REST`` and ``SocketIO`` protocols.
 
 .. _con-shamwow:
 

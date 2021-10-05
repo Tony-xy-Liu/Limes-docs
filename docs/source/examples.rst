@@ -73,7 +73,7 @@ d. `Example Staging Areas <https://elab.msl.ubc.ca/members/inventory/browser/?in
 
 ------------------------------------
 
-Linking Sequencing Data to the Original Samples
+Linking Sequencing Data to Physical Samples
 -----------------------------------------------
 
 *Coming soon*
