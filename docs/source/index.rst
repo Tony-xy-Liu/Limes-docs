@@ -19,4 +19,5 @@ Contents
    examples
    portal
    python
+   connections
    contributing
