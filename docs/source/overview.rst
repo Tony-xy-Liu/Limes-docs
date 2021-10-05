@@ -1,12 +1,7 @@
 .. _over-title:
 
-Overview
-========
-
-.. _over-top:
-
-.. contents::
-    :local:
+Possible User Actions
+=====================
 
 .. _over-diagram:
 
@@ -15,55 +10,42 @@ Workflows Diagram
 
 .. image:: res/overview.svg
 
-The above shows the possible high-level actions for working with LIMS data
-and what each action achieves.
+**Diagram elements:**
 
-Diagram elements:
- - **Items** represent starting conditions, desired outcomes, or required intermediates.
- - **Actions** can be performed without installing the python client.
- - **Adv. Actions** require the use of the :ref:`python client<access-python>`.
- - **Dev. Actions** require changes to the code base.
+- **Items** represent starting conditions, desired outcomes, or required intermediates.
+- **Actions** can be performed without installing the python client.
+- **Adv. Actions** require the use of the :ref:`python client<access-python>`.
+- **Dev. Actions** require changes to the code base.
 
-.. _over-stdact:
+The above shows the possible high-level actions for working with LIMS data, what each
+action achieves, and how to chain actions together. For example, to get *barcoded labels*
+from from *physical samples*, the action *Add Samples* must first be done to get
+*ELab Records*, followed by the action *Print Labels*.
+
+:ref:`ex-title`
+"""""""""""""""""""""""""""""""""""
+
+------------------------------------
+
+.. _over-list:
+
+List of Actions
+---------------
 
 Standard Actions
-----------------
-
-Add Sample
-""""""""""
-
-Bulk Add Samples
 """"""""""""""""
 
-Update Samples
-""""""""""""""
+- `Adding Samples <https://www.elabjournal.com/doc/AddingSamples.html>`_
+- `Bulk Add Samples <https://elab.msl.ubc.ca/members/protocol/?protID=40960>`_
+- `Update Samples <https://www.elabjournal.com/doc/UpdatingSamples.html>`_
+- `Printing Labels <https://elab.msl.ubc.ca/members/protocol/?protID=40951>`_
+- `Search Samples <https://www.elabjournal.com/doc/SearchingSamples.html>`_
 
-Print Barcoded Labels
-"""""""""""""""""""""
+.. Tip::
+    View eLab's `full documentation here <https://www.elabjournal.com/doc/>`_
 
-Search Samples
-""""""""""""""
+:ref:`Advanced Actions with Python<py-title>`
+""""""""""""""""""""""""""""""""""""""""""""""
 
-:ref:`Back to top<over-top>`
-
-.. _over-advact:
-
-Advanced Actions
-----------------
-
-Link Data
-"""""""""
-
-Comprehensive Search
-""""""""""""""""""""
-
-:ref:`Back to top<over-top>`
-
-.. _over-devact:
-
-Developer Actions
------------------
-
-See :ref:`contr-title`
-
-:ref:`Back to top<over-top>`
+:ref:`Developer Actions<contr-title>`
+"""""""""""""""""""""""""""""""""""""
