@@ -71,6 +71,7 @@ d. `Example Staging Areas <https://elab.msl.ubc.ca/members/inventory/browser/?in
 
 :ref:`Back to top<ex-top>`
 
+------------------------------------
 
 Linking Sequencing Data to the Original Samples
 -----------------------------------------------
@@ -79,6 +80,7 @@ Linking Sequencing Data to the Original Samples
 
 :ref:`Back to top<ex-top>`
 
+------------------------------------
 
 Adding Samples with Existing Barcodes
 -----------------------------------------------

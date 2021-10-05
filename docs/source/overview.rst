@@ -23,7 +23,6 @@ from from *physical samples*, the action *Add Samples* must first be done to get
 *ELab Records*, followed by the action *Print Labels*.
 
 :ref:`ex-title`
-"""""""""""""""""""""""""""""""""""
 
 ------------------------------------
 
