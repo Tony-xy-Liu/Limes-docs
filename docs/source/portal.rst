@@ -40,6 +40,7 @@ The **barcode** and full address of the specified location will appear and all s
 in that specific location will be displayed in a table.
 
 .. Note::
+
     If a storage is not found, pressing the :code:`Reload Storages`
     button will have Limes synchronize its remembered storage locations with eLab.
 
@@ -49,6 +50,10 @@ Pressing :code:`Print` will display the barcodes of all samples found.
 
 Printing Labels
 ---------------
+
+Ensure that a template for the style of label you wish to print has been created.
+
+`How do I make a template? <https://elab.msl.ubc.ca/members/protocol/?protID=40950>`_
 
 :ref:`Log in to the portal<port-title>` and click ``Print``.
 
@@ -66,6 +71,11 @@ In the ``Items`` field, enter each item to print by pasting its' **barcode** on 
     barcodes of many samples of storage locations like boxes / racks.
     :ref:`Have a look at this example for a walkthrough<ex-env>`
 
+.. Note::
+    
+    If a barcode is matched to a sample on eLab, the sample's name will be automatically
+    sent to the label, otherwise, only the custom text will be sent.
+
 Add additional text by separating it with a comma or the ``tab`` character. *Pasting entries
 directly from a spreadsheet is possible here.*
 
@@ -77,14 +87,19 @@ directly from a spreadsheet is possible here.*
     005000009764831 tab separated & from a spreadsheet
 
 .. Note::
+
+    It is possible to print *unlinked* labels, though this is **highly NOT recommended.** 
+    Simply start with a comma to indicate a blank barcode, for example:
     
-    If a barcode is matched to a sample on eLab, the sample's name will be automatically
-    sent to the label, otherwise, only the custom text will be sent.
+    .. code-block:: none
+
+        , a lonely label not connected to eLab
+        , a sad label with no barcode
 
 The information to be printed for each label will be shown in the table at the bottom.
 
-Pressing :code:`Copy to Clipboard` button will allow you to paste the label information
-into a spreadsheet for editing. It should be possible to then directly paste the updated
+Pressing the :code:`Copy to Clipboard` button will allow you to paste the label information
+into a spreadsheet for editing. It should then be possible to directly paste the updated
 contents back into the ``Items`` box.
 
 A :code:`Label Template` and :code:`Printer` must be selected before printing.
