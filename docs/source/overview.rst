@@ -12,10 +12,12 @@ Workflows Diagram
 
 **Diagram elements:**
 
-- **Items** represent starting conditions, desired outcomes, or required intermediates.
-- **Actions** can be performed without installing the python client.
-- **Adv. Actions** require the use of the :ref:`python client<access-python>`.
-- **Dev. Actions** require changes to the code base.
+* **Items** represent starting conditions, desired outcomes, or required intermediates.
+* **Actions** show the steps necessary to obtain indicated items. 
+  
+  * **Standard** actions can be performed through the :ref:`portal<port-title>` with no installations.
+  * **Advanced** actions require the use of the :ref:`python client<py-title>`.
+  * **Development** actions require changes to the :ref:`code base<contr-title>`.
 
 The above shows the possible high-level actions for working with LIMS data, what each
 action achieves, and how to chain actions together. For example, to get *barcoded labels*
