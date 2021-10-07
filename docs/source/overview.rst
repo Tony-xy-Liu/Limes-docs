@@ -41,6 +41,7 @@ Standard Actions
 - `Update Samples <https://www.elabjournal.com/doc/UpdatingSamples.html>`_
 - `Printing Labels <https://elab.msl.ubc.ca/members/protocol/?protID=40951>`_
 - `Search Samples <https://www.elabjournal.com/doc/SearchingSamples.html>`_
+- :ref:`Search By Storage Location<port-searchLoc>`
 
 .. Tip::
     View eLab's `full documentation here <https://www.elabjournal.com/doc/>`_

@@ -10,12 +10,15 @@ Log in using your eLab credentials.
 .. Note::
     - A connection to the UBC Secure network is required, via VPN, campus wifi, or ethernet cable.
 
+.. _port-searchLoc:
 
 Search by Storage Location
 --------------------------
 
-Search for samples in a storage location by entering the address of the location.
-The address need not be precise. For example,
+:ref:`Log in to the portal<port-title>` and click ``Samples By Storage Location``.
+
+Search for samples in a storage location by entering the names of the storage levels to that location, seperated by commas.
+This need not be too precise. For example,
 
 .. code-block:: none
 
@@ -27,7 +30,14 @@ would suffice for
 
     -80C Freezer #11, shelf 2, rack 3
 
-Results are displayed in a table at the bottom
+.. warning::
+
+    Be aware of ambiguities. ``1``, for instance, will match terms like ``Freezer #01`` or
+    ``Freezer #15``, and ``8`` will match ``-80C Freezer``! *The search is simply matching the
+    name of each storage level.*
+
+The **barcode** and full address of the specified location will appear and all samples
+in that specific location will be displayed in a table.
 
 .. Note::
     If a storage is not found, pressing the :code:`Reload Storages`
@@ -35,10 +45,14 @@ Results are displayed in a table at the bottom
 
 Pressing :code:`Print` will display the barcodes of all samples found in the print page
 
-Print Labels
-------------
+.. _port-labels:
 
-Enter each sample to print by pasting it's barcode on a new line like so:
+Printing Labels
+---------------
+
+:ref:`Log in to the portal<port-title>` and click ``Print``.
+
+In the ``Items`` field, enter each item to print by pasting its' **barcode** on a new line like so:
 
 .. code-block:: none
 
@@ -46,13 +60,21 @@ Enter each sample to print by pasting it's barcode on a new line like so:
     005000009764830
     005000009764831
 
-Add additional text by appending it after a comma:
+.. Tip::
+
+    Consider using the :ref:`Search By Storage Locaton<port-searchLoc>` feature to acquire
+    barcodes of many samples of storage locations like boxes / racks.
+    :ref:`Have a look at this example for a walkthrough<ex-env>`
+
+Add additional text by separating it with a comma or the ``tab`` character. *Pasting directly from
+a spreadsheet is possible here.*
 
 .. code-block:: none
 
     005000009764829
     005000009764830, custom text
-    005000009764831, more custom text
+    005000009764831, text for "o.text2", text for "o.text3"
+    005000009764831 tab separated & from a spreadsheet
 
 .. Note::
     

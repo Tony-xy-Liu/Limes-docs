@@ -12,6 +12,8 @@ A wrapper inheriting ``Connections`` was created to provide typing for
 `eLab's API <https://www.elabjournal.com/docs/api/index>`_ and integrate it as a
 ``Provider``.
 
+`Click here to go to eLab <https://elab.msl.ubc.ca/>`_
+
 .. _con-server:
 
 Server
@@ -24,6 +26,10 @@ persistent source of truth for the network, though communications with other net
 elements need not always go through the server.
 
 The server utilizes both ``REST`` and ``SocketIO`` protocols.
+
+`Click here to go to the Limes Portal <http://sh-lims.microbiology.ubc.ca:8001/>`_
+
+:ref:`What's a "Limes Portal" and how do I use it?<port-title>`
 
 .. _con-shamwow:
 
@@ -44,4 +50,6 @@ A `python driver <https://github.com/Tony-xy-Liu/Limes-Printer>`_ handles print 
 from the server via ``SocketIO``. For each request, it generates a barcode, QR code, and
 label from an existing template using
 `Apache OpenOffice Writer <https://www.openoffice.org/>`_ before sending a print command
-over USB. 
+over USB.
+
+:ref:`How to print labels<port-labels>`
