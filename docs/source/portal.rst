@@ -15,16 +15,16 @@ Log in using your eLab credentials.
 Search by Storage Location
 --------------------------
 
-:ref:`Log in to the portal<port-title>` and click ``Samples By Storage Location``.
+:ref:`Log in to the portal<port-title>` and click ``Search By Storage Location``.
 
-Search for samples in a storage location by entering the names of the storage levels to that location, seperated by commas.
+Search for a storage location by entering the names of the storage levels to that location, seperated by commas.
 This need not be too precise. For example,
 
 .. code-block:: none
 
     11, 2, 3
 
-would suffice for
+would yield
 
 .. code-block:: none
 
@@ -43,7 +43,7 @@ in that specific location will be displayed in a table.
     If a storage is not found, pressing the :code:`Reload Storages`
     button will have Limes synchronize its remembered storage locations with eLab.
 
-Pressing :code:`Print` will display the barcodes of all samples found in the print page
+Pressing :code:`Print` will display the barcodes of all samples found.
 
 .. _port-labels:
 
@@ -66,8 +66,8 @@ In the ``Items`` field, enter each item to print by pasting its' **barcode** on 
     barcodes of many samples of storage locations like boxes / racks.
     :ref:`Have a look at this example for a walkthrough<ex-env>`
 
-Add additional text by separating it with a comma or the ``tab`` character. *Pasting directly from
-a spreadsheet is possible here.*
+Add additional text by separating it with a comma or the ``tab`` character. *Pasting entries
+directly from a spreadsheet is possible here.*
 
 .. code-block:: none
 
@@ -85,7 +85,7 @@ The information to be printed for each label will be shown in the table at the b
 
 Pressing :code:`Copy to Clipboard` button will allow you to paste the label information
 into a spreadsheet for editing. It should be possible to then directly paste the updated
-contents back into the *Samples* box.
+contents back into the ``Items`` box.
 
 A :code:`Label Template` and :code:`Printer` must be selected before printing.
 
