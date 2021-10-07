@@ -17,8 +17,8 @@ Example Use Cases
 Processing Environmental Samples
 --------------------------------
 
-From the Overview
-""""""""""""""""""""""""
+:ref:`From the Overview<over-diagram>`
+""""""""""""""""""""""""""""""""""""""
 
 .. image:: res/ex-env-over.svg
     :scale: 40%
