@@ -89,11 +89,11 @@ directly from a spreadsheet is possible here.*
 .. Note::
 
     It is possible to print *unlinked* labels, though this is **highly NOT recommended.** 
-    Simply start with a comma to indicate a blank barcode, for example:
-    
+    Simply enter your own barcode or start with a comma to indicate a blank barcode, for example:
+
     .. code-block:: none
 
-        , a lonely label not connected to eLab
+        12345, a lonely label not connected to eLab
         , a sad label with no barcode
 
 The information to be printed for each label will be shown in the table at the bottom.
