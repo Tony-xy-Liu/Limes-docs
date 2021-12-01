@@ -3,7 +3,7 @@
 Limes Portal
 =============
 
-link: `<http://sh-lims.microbiology.ubc.ca:8001/>`_
+link: `<https://limes-inventory.github.io/>`_
 
 Log in using your eLab credentials.
 
@@ -109,3 +109,10 @@ A :code:`Label Template` and :code:`Printer` must be selected before printing.
     Ensure that the selected template matches the physical labels loaded in the printer.
 
 When ready, press :code:`Print All` and wait for confirmation.
+
+.. _port-change-labels:
+
+Changing Labels
+---------------
+
+`View the protocol on eLab <https://elab.msl.ubc.ca/members/protocol/?protID=40983>`_
