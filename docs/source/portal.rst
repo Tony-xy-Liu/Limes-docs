@@ -116,3 +116,11 @@ Changing Labels
 ---------------
 
 `View the protocol on eLab <https://elab.msl.ubc.ca/members/protocol/?protID=40983>`_
+
+.. _port-troubleshoot:
+
+Troubleshooting
+---------------
+
+`View Troubleshooting on eLab <https://elab.msl.ubc.ca/members/protocol/?protID=41057>`_
+
