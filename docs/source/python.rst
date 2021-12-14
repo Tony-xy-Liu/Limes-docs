@@ -13,8 +13,8 @@ Install
     (env)$ pip install limes-inventory
 
 .. Tip::
-    We recommend performing the installation within a virtual environment such as
-    that provided by `venv <https://docs.python.org/3/library/venv.html>`_ or
+    We recommend performing the installation within a virtual environment which can be 
+    created by `venv <https://docs.python.org/3/library/venv.html>`_ or
     `conda <https://www.anaconda.com/>`_.
 
 

@@ -61,18 +61,18 @@ Steps
 
 ------------------------------------
 
-Linking Sequencing Data to Physical Samples
------------------------------------------------
+.. Linking Sequencing Data to Physical Samples
+.. -----------------------------------------------
 
-*Coming soon*
+.. *Coming soon*
 
-:ref:`Back to top<ex-top>`
+.. :ref:`Back to top<ex-top>`
 
-------------------------------------
+.. ------------------------------------
 
-Adding Samples with Existing Barcodes
------------------------------------------------
+.. Adding Samples with Existing Barcodes
+.. -----------------------------------------------
 
-*Coming soon*
+.. *Coming soon*
 
-:ref:`Back to top<ex-top>`
+.. :ref:`Back to top<ex-top>`

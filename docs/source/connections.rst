@@ -27,8 +27,6 @@ elements need not always go through the server.
 
 The server utilizes both ``REST`` and ``SocketIO`` protocols.
 
-`Click here to go to the Limes Portal <http://sh-lims.microbiology.ubc.ca:8001/>`_
-
 :ref:`What's a "Limes Portal" and how do I use it?<port-title>`
 
 .. _con-shamwow:
