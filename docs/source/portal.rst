@@ -46,6 +46,45 @@ in that specific location will be displayed in a table.
 
 Pressing :code:`Print` will display the barcodes of all samples found.
 
+.. _port-scan:
+
+Scanning Labels
+---------------
+
+:ref:`Log in to the portal<port-title>` and click ``Scanner``.
+
+Barcodes can be entered directly into the box: ``Enter Barcode Here``. After the specified delay
+indicated by the box ``Delay (ms)``, the barcode will be entered into the table. This barcode will
+be automatically checked against elab and a checkmark (✔) will appear in the ``Added?`` column if the
+barcode was found in eLab.
+
+When ready to confirm the reception of barcodes (and their samples by proxy), select the desired barcodes
+from the scanned barcodes table and click ``Confirm Recieve``. **The MMAP API will then be notifed of these barcodes.**
+The ``Info`` column will display identifiers for the barcode if the MMAP API was succesfully updated, or
+continue to display ``unknown`` on failure.
+
+.. warning::
+
+    The MMAP API will only accept confirmation once, so there is no way to tell the difference between
+    a succesful confirmation and a repeat confirmation. Attempts to improve this was met with logistical
+    resistence.
+    
+Selected barcodes with retrieved metadata (ex. names or other identifiers) can be copied to the clipboard as a table
+to be later pasted into a spreadsheet for bulk entry into eLab.
+
+.. Note::
+
+    Double clicking on any row will open the eLab page for that barcode if found in eLab.
+
+.. Note::
+
+    Use the ``Toggle Camera`` button to scan barcodes directly using the built-in camera of the device.
+
+.. Note::
+
+    The scanned list of barcodes will persist between login sessions and devices for each user, *as long as the
+    server has not restarted.*
+
 .. _port-labels:
 
 Printing Labels
