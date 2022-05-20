@@ -68,15 +68,15 @@ continue to display ``unknown`` on failure.
     The MMAP API will only accept confirmation once, so there is no way to tell the difference between
     a succesful confirmation and a repeat confirmation. Attempts to improve this was met with logistical
     resistence.
-    
+
 Selected barcodes with retrieved metadata (ex. names or other identifiers) can be copied to the clipboard as a table
 to be later pasted into a spreadsheet for bulk entry into eLab.
 
-.. Note::
+.. Tip::
 
     Double clicking on any row will open the eLab page for that barcode if found in eLab.
 
-.. Note::
+.. Tip::
 
     Use the ``Toggle Camera`` button to scan barcodes directly using the built-in camera of the device.
 
