@@ -1,4 +1,4 @@
 This repo generates the documentation site for Limes
 ====================================================
 
-https://txyl-limes.readthedocs.io/en/latest/
+https://limes-inventory.readthedocs.io/en/latest/
